@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Bill</title>
+    <script src="assets/js/script.js"></script>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Hotel Bill</legend>
+    <table>
+        
+        <tr>
+          <td> <label for="">Name :</label></td>
+          <td><input type="text" id="name" placeholder="Enter Customer Name" required></td>
+        </tr>
+
+        <tr>
+            <td><input type="checkbox" id="room" onclick="check()"><label for="">Room</label></td>
+            <td><input type="text" id="txt1"></td>
+        </tr>
+
+        <tr>
+            <td><input type="checkbox" id="Food" onclick="check()"><label for="">Food</label></td>
+            <td><input type="text" id="txt2"></td>
+        </tr>
+
+        <tr>
+            <td><input type="checkbox" id="ac" onclick="check()"><label for="">AC</label></td>
+            <td><input type="text" id="txt3"></td>
+        </tr>
+
+        <tr>
+            <td><input type="checkbox" id="park" onclick="check()"><label for="">Parking</label></td>
+            <td><input type="text" id="txt4"></td>
+        </tr>
+
+        <tr>
+            <td><input type="checkbox" id="gst" onclick="check()"><label for="">GST</label></td>
+            <td><input type="text" id="txt5"></td>
+        </tr>
+
+        <tr>
+            <td><label for="">Total Amount :</label></td>
+            <td><input type="text" id="amount"></td>
+            <td><input type="submit" value="Bill Generate" onclick="checkadd()"></td>
+            <td><input type="reset" value="clear"></td>
+        </tr>
+     
+            </table>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
